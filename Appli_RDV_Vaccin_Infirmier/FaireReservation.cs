@@ -124,7 +124,6 @@ namespace Appli_RDV_Vaccin_Infirmier
             Sexe = txtbox_sexe.Text.Replace("'", "\'");
             NumTel = txtbox_numtel.Text.Replace("'", "\'");
             Adresse = rctxtbox_adresse.Lines[0].Replace("'", "\'");
-            MessageBox.Show(rctxtbox_adresse.Lines[0].Replace("'", "\'"));
         }
 
         /// <summary>
